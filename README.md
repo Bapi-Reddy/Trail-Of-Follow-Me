@@ -2,13 +2,8 @@
 A real-time object tracking application using [Google's TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/object_detection) and [OpenCV](http://opencv.org/).
 
 ## Getting Started
-1. `python object_detection_app.py`
+1. `python object_track_app.py`
     Optional arguments (default value):
-    * Device index of the camera `--source=0`
-    * Width of the frames in the video stream `--width=480`
-    * Height of the frames in the video stream `--height=360`
-    * Number of workers `--num-workers=2`
-    * Size of the queue `--queue-size=5`
 
 ## Requirements
 - [TensorFlow 1.2](https://www.tensorflow.org/)
